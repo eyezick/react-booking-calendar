@@ -44,6 +44,7 @@ export default class BookingCalendar extends Component {
   handleSelect(day) {
     if (this.props.clickable) {
       this.setState({ selected: day.date });
+      console.log('Selected',day)
     }
   }
 
